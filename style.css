@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 7px 25px;
-    background-color: #7f7f7f;
+border: 1px solid #d4831c;
     border-radius: 54px;
 }
 img{
@@ -24,7 +24,7 @@ img{
 }
 i.fa-solid.fa-house {
     font-size: 21px;
-    color: #ffffff;
+    color: #1b1d4c;
 }
 body
  {
@@ -32,7 +32,7 @@ body
 }
 .title-comp
  {
-    color: #ffff;
+    color: #1b1d4c;
 }
 /* ----------------------------------- */
 .slider {
@@ -40,7 +40,7 @@ body
     width: 100%;
     overflow: hidden;
     border-radius: 0px;
-    height: 45vh;
+    height: 34vh;
     margin: 11px 0px;
     border-radius: 14px;
 }
@@ -51,10 +51,10 @@ body
     }
 
 .slides img {
-    width: 100%;
-    object-fit: cover;
+
     border-radius: 14px;
 }
+
 
     .dots {
       position: absolute;
@@ -103,17 +103,11 @@ h2
     flex-wrap: wrap;
 }
 
-.cards .red {
-  background-color: #1c1d4d;
+.cards .red ,.blue,.green {
+    background: linear-gradient(135deg, #0b4fa2, #1e88e5);
 }
 
-.cards .blue {
-  background-color: #1c1d4d;
-}
 
-.cards .green {
-  background-color: #1c1d4d;
-}
 
 .cards .card {
     display: flex;
@@ -133,11 +127,11 @@ h2
  {
     font-size: 1em;
     font-weight: 700;
-    color: #d18519;
+    color: #ffffff;
 }
 .cards .card p.second-text {
     font-size: .7em;
-    color: #d2851e;
+    color: #ffffff;
 }
 
 .cards .card:hover {
@@ -156,9 +150,9 @@ h2
 .logo-comp {
     width: 48px;
 }
-  .slider{
+  /* .slider{
     height: unset;
-  }  
+  }   */
  
 }
 @media screen and (max-width:514px) {
@@ -204,7 +198,7 @@ height: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #7f7f7f;
+border: 1px solid #d4831c;
     margin: 24px;
     padding: 18px;
     border-radius: 25px;
@@ -224,13 +218,13 @@ height: 130px;
 } 
 i.fa-brands.fa-facebook ,i.fa-brands.fa-instagram,i.fa-brands.fa-whatsapp{
     margin: 0px 9px;
-    color: #ffffff;
+    color: #d3851c;
 }
 .logo-footer {
     text-align: -webkit-center;
 }
 .dt-fot{
-    color: white;
+    color: #d3851c;
 }
 @media screen and (max-width:666px) {
 .footer {
